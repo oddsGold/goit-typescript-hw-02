@@ -27,7 +27,7 @@ const App: React.FC = () => {
     const [error, setError] = useState<boolean>(false);
     const [errorMsg, setErrorMsg] = useState<string>('');
     const [page, setPage] = useState<number>(1);
-    const [perPage, setPerPage] = useState<number>(12);
+    const [perPage] = useState<number>(12);
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
     const [imageUrl, setImageUrl] = useState<string>('');
